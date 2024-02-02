@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.16)
 project(encryptorator)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # enable ccache
 find_program(CCACHE_PROGRAM ccache)
 if (CCACHE_PROGRAM)
