@@ -14,7 +14,7 @@ std::byte charToByte(const char *chars){
 const char *Encryptorator::encrypt(const char *input) {
     std::byte bytes = charToByte(input);
 
-    std::cout << "test" << std::cout;
+    std::cout << "test" << std::endl;
 
     return "";
 }
